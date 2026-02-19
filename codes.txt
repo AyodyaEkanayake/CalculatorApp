@@ -1,0 +1,22 @@
+🌸 Install backend packages
+pip install fastapi uvicorn
+
+
+
+▶️ Run backend
+python -m uvicorn backend:app --reload --host 0.0.0.0 --port 8000
+
+
+▶️ Run frontend
+npx expo start -c
+
+
+
+🌟 Test backend
+
+Open browser:
+
+http://localhost:8000/docs
+
+
+If page appears → backend works ✅
